@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   sporadically about topics that interest me.
 twitter_username: username
 github_username: tonberry22
-minimal_mistakes_skin: sunrise # "default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: mint # "default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 search: true
 
 # Build settings
@@ -110,6 +110,14 @@ defaults:
   - scope:
       path: ""
       type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+  # _android
+  - scope:
+      path: ""
+      type: android
     values:
       layout: single
       author_profile: true
